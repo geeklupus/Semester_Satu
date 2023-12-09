@@ -1,0 +1,24 @@
+1. Buatlah program untuk membalik sebuah kalimat, misal:
+- input : "LUPA-LUPA INGAT"
+- output : "TANGI APUL-APUL"
+
+# listmu = [10, 20, 30, 40, 50, 60]
+# listku = listmu[::-1]
+# print(f'listmu: {listmu}')
+# print(f'listmu: {listmu}')
+
+kata = 'LUPA-LUPA INGAT'
+print(kata[::-1])
+
+
+2. Buatlah program untuk menghitung jumlah masing2 huruf vokal dengan output seperti ini:
+- kalimat : "Universitas Nusa Puteraaa"
+- output : Jumlah huruf A = 3, I = 2, U = 3, E = 2, O = 0, Total Jumlah huruf vokal = 10
+
+# listmu = [10, 20, 30, 40, 50, 60]
+# listku = listmu[::-1]
+# print(f'listmu: {listmu}')
+# print(f'listmu: {listmu}')
+
+kata = 'LUPA-LUPA INGAT'
+print(kata[::-1])
