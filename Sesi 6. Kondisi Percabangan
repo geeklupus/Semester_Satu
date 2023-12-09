@@ -1,0 +1,41 @@
+1. Sebuah wahana bermain "Disney Island" akan memberikan tarif sesuai dengan tinggi dan umur anak dengan ketentuan sebagai berikut:
+- Umur kurang dari 2 tahun, tampilkan "Dilarang Masuk"
+- Umur kurang dari 4 tahun, Rp 30k, Jika tinggi anak umur 2-3 tahun melebihi 70 cm, maka tarif bertambah 10k
+- Umur kurang dari 7 tahun, Rp 40k, Jika tinggi anak umur 5-6 tahun melebihi 120 cm, maka tarif bertambah 15k
+- Umur kurang dari 10 tahun, Rp 50k, Jika tinggi anak umur 8-9 tahun melebihi 150 cm, maka tarif bertambah 20k
+- Umur 10 tahun keatas, Rp 80k
+Buatlah program untuk menampilkan tarif harga sesuai umur dan tinggi seorang anak ?
+
+
+#input
+l = input("Umur kurang dari 2 Tahun:")
+m = input("Umur kurang dari 4 Tahun + Jika tinggi anak 2-3 Tahun melebihi 70 cm:")
+o = input("Umur kurang dari 7 Tahun + Jika tinggi anak 4-6 Tahun melebihi 120 cm:")
+q = input("Umur kurang dari 10 Tahun + Jika tinggi anak 8-9 Tahun melebihi 150 cm:")
+s = input("Umur lebih dari 10 Tahun:")
+kdjur = input("Masukan Kode Jurusan [Empat Tahun|Tujuh Tahun|Sepuluh Tahun] ")
+jml = input("Masukan Jumlah Harga Dari Setiap Umur")
+
+#proses
+if kdjur=="Empat Tahun":
+    Umur="4 Tahun"
+    Harga=30000
+elif kdjur=="Empat Tahun":
+    Umur="7 Tahun"
+    Harga=40000
+else:
+    Umur="Sepuluh Tahun"
+    Harga=50000
+
+#output
+print("__________________________________________")
+print('PENJUALAN TIKET WAHANA, DASAR PEMOGRAMAN')
+print("__________________________________________")
+print("Umur kurang dari 2 Tahun: Dilarang Masuk")
+print("Umur kurang dari 4 Tahun + Jika tinggi anak 2-3 Tahun melebihi 70 cm: 40.000")
+print("Umur kurang dari 7 Tahun + Jika tinggi anak 4-6 Tahun melebihi 120 cm: 55.000")
+print("Umur kurang dari 10 Tahun + Jika tinggi anak 8-9 Tahun melebihi 120 cm: 70.000")
+print("Umur lebih dari 10 Tahun: 80.000")
+print("_____________________________________________")
+print("Hasil Akhir Adalah 245.000")
+print("_____________________________________________")
