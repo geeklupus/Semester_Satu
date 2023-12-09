@@ -1,0 +1,72 @@
+1. Jelaskan dan Sebutkan perangkat lunak (software) yang anda ketahui minimal 5 ? (score = 10)
+
+Berikut adalah 5 perangkat lunak yang saya ketahui:
+1. Microsoft Office: perangkat lunak yang digunakan untuk mengolah dokumen, presentasi, dan spreadsheet.
+2. Adobe Photoshop: perangkat lunak untuk mengedit dan memanipulasi gambar dan foto.
+3. Google Chrome: perangkat lunak browser web yang digunakan untuk menjelajahi internet.
+4. Windows Media Player: perangkat lunak untuk memutar file audio dan video di sistem operasi Windows.
+5. Mozilla Firefox: perangkat lunak browser web yang digunakan untuk menjelajahi internet.
+
+2. Jelaskan apa yang dimaksud dengan finitenes dalam menyusun sebuah algoritma ? (sekor = 15)
+
+Finiteness dalam menyusun sebuah algoritma merujuk pada kondisi bahwa algoritma tersebut memiliki jumlah langkah yang terbatas. Hal ini berarti bahwa ada titik akhir dalam proses pendekatan yang dilakukan oleh algoritma saat menyelesaikan masalah atau menghitung nilai[2]. Algoritma adalah serangkaian instruksi yang tepat untuk melakukan perhitungan atau menyelesaikan masalah[1].
+
+Beberapa sifat penting dari algoritma meliputi:
+
+1. **Input**: Algoritma menerima nilai-nilai dari sebuah set spesifik[3].
+2. **Output**: Algoritma menghasilkan nilai-nilai dari sebuah set spesifik yang menjadi solusi masalah[3].
+3. **Definiteness**: Algoritma harus memberikan hasil yang tepat untuk setiap set of input yang diberikan[3].
+4. **Correctness**: Algoritma harus selalu memberikan hasil yang benar[3].
+5. **Effectiveness**: Algoritma harus dapat dijalankan secara efisien dalam waktu dan memori[3].
+6. **Finiteness**: Algoritma harus memiliki jumlah langkah yang terbatas[3].
+7. **Generality**: Algoritma harus fleksibel dan dapat digunakan untuk berbagai masalah[3].
+
+Dalam konteks algoritma, finiteness sangat penting karena memastikan bahwa algoritma akan selesai dalam waktu yang terbatas dan tidak akan terendah ketika menghadapi masalah yang tidak terhitung. Hal ini juga memungkinkan pengguna untuk memahami dan menganalisis algoritma dengan lebih baik, serta mengevaluasi efektivitas dan efisiennya dalam menyelesaikan masalah[5].
+
+3. Carilah simbol-simbol yang digunakan untuk membuat (flowchart) beserta fungsinya masing-masing sebanyak 10 ? (score = 30)
+
+Berikut adalah 10 simbol yang digunakan dalam flowchart beserta fungsinya masing-masing:
+1. Terminator: Menunjukkan awal dan akhir dari sebuah sistem atau proses.
+2. Input/Output: Menunjukkan proses input dan output tanpa tergantung jenis peralatannya.
+3. Proses: Menunjukkan suatu tindakan atau proses pada komputer.
+4. Preparation: Menunjukkan penyediaan tempat atau variabel penyimpanan suatu sistem.
+5. Arus Proses: Menghubungkan antara simbol satu dan simbol lain atau menyatakan jalannya proses.
+6. Decision: Menunjukkan suatu keputusan atau pilihan yang harus diambil dalam suatu sistem.
+7. Connector: Menghubungkan antara simbol satu dan simbol lainnya.
+8. Transportation/Move: Memindahkan material dengan forklift, mengangkat barang dengan crane, memindahkan barang dengan tangan, dan sebagainya.
+9. Delay: Menunjukkan material dalam trolley menunggu dan diproses lebih lanjut, menunggu elevator, surat-surat menunggu untuk diarsipkan, dan sebagainya.
+10. Display: Menunjukkan adanya peralatan output yang digunakan dalam suatu sistem. [1][2][3][4]
+
+4. Buatlah algoritma menggunakan representasi uraian deskripsi, (flowchart) dan (pseudocode) untuk permasalahan berikut ini:
+    a. Menghitung luas dan keliling lingkaran?
+    b. Menghitung luas segitiga ?
+    (score = 45)
+
+Untuk menghitung luas dan keliling lingkaran, serta luas segitiga, Anda dapat menggunakan algoritma berikut ini:
+
+1. **Luas dan Keliling Lingkaran**
+   - Input: Diameter lingkaran (D)
+   - Luas lingkaran = π * D * D
+   - Keliling lingkaran = 2 * π * D
+
+2. **Luas Segitiga**
+   - Input: Panjang segitiga (a), panjang alas segitiga (b), dan tinggi segitiga (t)
+   - Luas segitiga = (a * b * t) / 3
+
+Flowchart dan pseudocode untuk menghitung luas dan keliling lingkaran, serta luas segitiga adalah sebagai berikut:
+
+```
+Flowchart:
+1. Input: Diameter lingkaran (D)
+2. Luas lingkaran = π * D * D
+3. Keliling lingkaran = 2 * π * D
+4. Output: Luas lingkaran dan Keliling lingkaran
+
+Pseudocode:
+1. D = Input("Masukkan diameter lingkaran: ")
+2. Luas_lingkaran = π * D * D
+3. Keliling_lingkaran = 2 * π * D
+4. Output("Luas lingkaran: " + Luas_lingkaran + ", Keliling lingkaran: " + Keliling_lingkaran)
+```
+
+Dalam flowchart, langkah-langkah utama meliputi inputan diameter lingkaran, menghitung luas dan keliling lingkaran, dan menampilkan hasil. Pseudocode menggambarkan algoritma secara langkah-langkah yang sama dengan flowchart.
